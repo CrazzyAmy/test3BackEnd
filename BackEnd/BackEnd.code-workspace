@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "js-e2e-express-mongodb",
+			"path": "../js-e2e-express-mongodb"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
