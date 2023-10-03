@@ -1,3 +1,5 @@
+// import { createRequire } from 'module';
+// const require = createRequire(import.meta.url);
 const { MongoClient } = require("mongodb");
 
 var createError = require('http-errors');
@@ -7,7 +9,10 @@ var logger =require('morgan');
 var express = require('express');
 var app = express()
 var mongoose =require('mongoose');
+const dotenv = require('dotenv');
 
+dotenv.config(); // 放在最上方
+console.log(process.env.DATABASE)
 mongoose.connect(process.env.DATABASE, {useNewUrlParser: true })
 const db = mongoose.connection
 db.on('error', (error) =>console.error(error))
@@ -15,7 +20,7 @@ db.once('open', () => console.log('Connected to Database'))
 
 app.use(express.json())
 
-const subscribersRouter =require('./routes/subscribers')
+const subscribersRouter =require('./routes/subscribers.cjs')
 app.use('/subscribers', subscribersRouter)
 // 'localhost:8000/subscribers/sdfsdf'
 
