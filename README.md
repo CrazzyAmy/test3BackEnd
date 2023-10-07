@@ -13,6 +13,7 @@ https://medium.com/web-design-zone/ejs%E6%A8%A3%E6%9D%BF%E5%BC%95%E6%93%8E%E7%9A
 
 
 VIDEO:
+
 NODE.JS 開 API 不求人//六角學院
 https://www.youtube.com/watch?v=RpMVP52YQRQ
 
@@ -23,6 +24,7 @@ https://www.youtube.com/watch?v=guCdLHyEHPQ
 
 Build A REST API With Node.js, Express, & MongoDB - Quick()
 https://www.youtube.com/watch?v=fgTGADljAeg
+(Your-First-Node-REST-API-master)
 
 Build a REST API with Node.js, Express, TypeScript, MongoDB & Zod(2:09:18)
 https://www.youtube.com/watch?v=BWUi6BS9T5Y
